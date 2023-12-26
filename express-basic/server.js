@@ -48,6 +48,18 @@ app.get('/add/:n1/:n2' ,(req ,res)=>{
   res.send(`The sum was ${sum}`)
 })
 
+//Adding usring status code 
+app.get('/addition/:num1/:num2' ,(req ,res)=>{
+  console.log(req.params)
+  let sum = Number(req.params.num1)+Number(req.params.num2)
+  console.log(sum)
+  if(!sum) {
+    return res.status(400).send("Enter the proper value of num1 & num2")
+  }
+  res.status(200).send(`The sum was ${sum}`);
+})
+
+
 //multiply
 app.get('/multiply/:n1/:n2' ,(req ,res)=>{
   console.log(req.params)
