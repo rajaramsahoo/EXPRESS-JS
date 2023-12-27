@@ -1,0 +1,29 @@
+[
+    {
+        "id": "c6221fa5-3538-47c1-9246-482ca86140cf",
+        "FirstName": "Himansusekhar",
+        "LastName": "sahu",
+        "Email": "himansu@gmail.com",
+        "Phone": "+919583192612",
+        "password": "$2b$12$1iYVnbjSiZCL95qRxwcgPeLTUb8QFyLa2LXhXnCv6ZaqOA/DDV7P.",
+        "tasks": []
+    },
+    {
+        "id": "69f65975-f100-446d-9ca3-c965024bd209",
+        "FirstName": "Rajaram",
+        "LastName": "sahoo",
+        "Email": "rajaramsahoo1998@gmail.com",
+        "Phone": "+917008309629",
+        "password": "$2b$12$Wh6/4aFOlygaPZCrdiP6l.CHKINfwaGHZPW6kq1pMYWEEWgMjesM6",
+        "tasks": []
+    },
+    {
+        "id": "f427dc27-1444-4671-82da-6f946043983f",
+        "FirstName": "Itishree",
+        "LastName": "Behera",
+        "Email": "luminaryitishree@gmail.com",
+        "Phone": "+918895487864",
+        "password": "$2b$12$BScKA.qnD/1RQyOPeHdBhuf411crr8SvrmNdN0st5reBSR1jrXHNu",
+        "tasks": []
+    }
+]
