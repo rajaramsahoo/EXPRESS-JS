@@ -12,7 +12,7 @@ function middleWare(req, res, next) {
         req.payload = decode;
         // console.log(req.payload);
         // res.status(200).send("working");
-         next ()
+         next ();
     }
     catch (err) {
         console.log(err);
